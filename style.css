@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  text-align: right;
+  min-height: 120px;
+ }
+header img{
+  float:left;
+ }
+.link {
+  border-right: 5px solid black;
+  padding: 10px;
+  color: black;
+}
+.link:last-child{
+  border-right: none
+}
+a:hover, a:active {
+  background-color: red;
+  color: white;
+}
+a:first-child:hover, a:first-child:active {
+  background-color: green;
+  color: white;
+}
+a:last-child:hover, a:last-child:active {
+  background-color: black;
+  color: white;
+}
+
+.lk {
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  background-color: blue;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+section {
+  text-align: center;
+}
+section img {
+  width: 50%
+}
+section p {
+  text-align: justify;
+}
+section p span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.de{
+  float:right;
+}
+
+/*CSS phone*/
+@media only screen and (max-width: 600px) {
+  body{
+    background: green;
+  }
+  header img{
+  margin-bottom: 20px;
+  float:none;
+ }
+  header nav{
+  margin-bottom: 20px;
+  float: none;
+ }
+  header {
+  text-align: center;
+ }
+  section p {
+  font-size: 30px;
+  color: white;
+}
+  section p span {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+  section1 p {
+  font-size: 30px;
+  color: white;
+}
+  section1 p span {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+}
+/*CSS tablets*/
+@media only screen and (min-width: 600px) {
+  body{
+    background: lightpink;
+  }
+}
+
+/*CSS laptops*/
+@media only screen and (min-width: 992px) {
+  body{
+    background: skyblue;
+  }
+}
